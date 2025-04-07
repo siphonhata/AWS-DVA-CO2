@@ -24,16 +24,41 @@ This repo documents everything I’m studying, practicing, and building along th
 
 ```bash
 aws-dva-c02-learning-journey/
-├── README.md
-├── 01-iam-security/
-├── 02-compute/
-│   └── elastic-beanstalk.md
-├── 03-storage/
-├── 04-databases/
-├── 05-networking/
-├── 06-dev-tools/
-├── 07-monitoring/
-├── 08-practice-questions/
-├── 09-notes/
+├── domain-1-development-with-aws-services/
+│   ├── dynamodb.md
+│   ├── s3.md
+│   ├── sqs-sns.md
+│   ├── step-functions.md
+│   ├── api-gateway.md
+│   └── eventbridge.md
+├── domain-2-security/
+│   ├── iam.md
+│   ├── kms.md
+│   ├── cognito.md
+│   └── secrets-manager.md
+├── domain-3-deployment/
+│   ├── elastic-beanstalk.md
+│   ├── ec2.md
+│   ├── lambda-deployment.md
+│   ├── sam-cli.md
+│   └── cloudformation.md
+├── domain-4-troubleshooting-and-optimization/
+│   ├── cloudwatch.md
+│   ├── xray.md
+│   ├── cloudtrail.md
+│   └── debugging-lambda.md
+├── practice-questions/
+│   ├── domain-1.md
+│   ├── domain-2.md
+│   ├── domain-3.md
+│   └── domain-4.md
+├── notes/
 │   └── cheatsheets/
-└── 10-resources/
+│       ├── s3-vs-efs-vs-efs-infrequent.md
+│       ├── lambda-vs-ec2-vs-eb.md
+│       └── cloudwatch-vs-cloudtrail.md
+└── resources/
+    ├── study-plan.md
+    └── useful-links.md
+
+
